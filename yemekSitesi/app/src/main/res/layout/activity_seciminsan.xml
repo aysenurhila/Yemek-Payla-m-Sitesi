@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.seciminsanActivity">
+
+    <ImageButton
+        android:id="@+id/liste"
+        android:layout_width="180dp"
+        android:layout_height="188dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/paylas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_pressed" />
+
+    <ImageButton
+        android:id="@+id/paylas"
+        android:layout_width="184dp"
+        android:layout_height="183dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:id="@+id/insanpaylas"
+        android:layout_width="190dp"
+        android:layout_height="18dp"
+        android:background="#FFFF"
+        android:text="PAYLAŞMAK İÇİN TIKLAYINIZ"
+        app:layout_constraintBottom_toBottomOf="@+id/paylas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/paylas"
+        app:layout_constraintTop_toTopOf="@+id/paylas"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <TextView
+        android:id="@+id/insanlistele"
+        android:layout_width="156dp"
+        android:layout_height="14dp"
+        android:background="#FFFF"
+        android:text="YEMEKLERİ LİSTELEYİN"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/liste"
+        app:layout_constraintEnd_toEndOf="@+id/liste"
+        app:layout_constraintStart_toStartOf="@+id/liste"
+        app:layout_constraintTop_toTopOf="@+id/liste" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

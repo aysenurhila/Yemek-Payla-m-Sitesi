@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "884797818889",
+    "firebase_url": "https://yemeksitesi-595e7.firebaseio.com",
+    "project_id": "yemeksitesi-595e7",
+    "storage_bucket": "yemeksitesi-595e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884797818889:android:0ad182f049f7b47b79d0d8",
+        "android_client_info": {
+          "package_name": "com.example.yemeksitesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884797818889-fvvh1g5fr94k5dgop15dk6fj1n6bnd8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yemeksitesi",
+            "certificate_hash": "773d6879f904bd5a3d3ad3cc6c21447337104bf0"
+          }
+        },
+        {
+          "client_id": "884797818889-dtg2nupivnohfqsjid3obq45k2q9vecg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDre8J9xLJQXQya_jg9omjaCoEEflXjPr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884797818889-dtg2nupivnohfqsjid3obq45k2q9vecg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

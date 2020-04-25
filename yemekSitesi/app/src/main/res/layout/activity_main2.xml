@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Main2Activity">
+
+
+    <ImageButton
+        android:id="@+id/insanbutton"
+        android:layout_width="240dp"
+        android:layout_height="222dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/insanyemek" />
+
+    <ImageButton
+        android:id="@+id/hayvanbutton"
+        android:layout_width="242dp"
+        android:layout_height="227dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/hayvanyemek" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="Insan Yemek Paylaşımı"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="283dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="Hayvan Yemek Paylaşımı"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</RelativeLayout>
